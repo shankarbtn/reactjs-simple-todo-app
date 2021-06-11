@@ -10,4 +10,4 @@
  9. When DELETE icon is clicked in the TASK CARD that particular CRD & details will be deleted.
 
 ## DEMO LINK
- [CLICK HERE TO OPEN TODO APP](https://shankarbtn.github.io/reactjs-simple-todo-app/)
+ [CLICK HERE TO OPEN TODO APP](https://shankarbtn.github.io/reactjs-simple-todo-app/){:target="_blank"}
