@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-section {
+  background: #FFAFBD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 60px; 
+}
+
+.task-section {
+  background-color: #ececec;
+}
+
+.modal-dialog .close {
+  display: none;
+}
+
+.cardBtn img{
+  width: 15px;
+  height: 17px;
+}
+
+.card .card-header {
+  font-size: 16px;
+}
+
+.card .card-text {
+  font-size: 13px;
+}
+
+.card-footer div{
+  display: inline-block;
+}
+
+.card-footer .dateDiv {
+  font-size: 12px;
+  color: #909090;
+  width: 70%;
+}
+
+.card-footer .iconDiv {
+  width: 30%;
+}
+
