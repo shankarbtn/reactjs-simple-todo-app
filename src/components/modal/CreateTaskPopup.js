@@ -15,16 +15,11 @@ const CreateTaskPopup = ({ modal, toggle, save }) => {
         }
     };
 
-    const setTaskDate = () => {
-        const now = new Date();
-        return now.getUTCDate() +'/'+ now.getUTCMonth() +'/'+ now.getUTCFullYear() +' '+ now.getUTCHours() +':'+ now.getUTCMinutes() +':'+ now.getUTCSeconds(); 
-    };
-
     const handleSave = () => {
         let taskObj = {};
         taskObj["name"] = taskName;
         taskObj["description"] = taskDescription;
-        taskObj["date"] = setTaskDate();
+        taskObj["date"] = new Date().toLocaleString('en-US');
         save(taskObj);
         setTaskName('');
         setTaskDescription('');

@@ -21,17 +21,12 @@ const EditTaskPopup = ({ editPopupModal, editPopupToggle, updateTask, editItem }
         }
     };
 
-    const setTaskDate = () => {
-        const currDate = new Date();
-        return currDate.getUTCDate() +'/'+ currDate.getUTCMonth() +'/'+ currDate.getUTCFullYear() +' '+ currDate.getUTCHours() +':'+ currDate.getUTCMinutes() +':'+ currDate.getUTCSeconds(); 
-    };
-
     const handleUpdate = (e) => {
         e.preventDefault();
         let taskObj = {};
         taskObj["name"] = taskName;
         taskObj["description"] = taskDescription;
-        taskObj["date"] = setTaskDate();
+        taskObj["date"] = new Date().toLocaleString('en-US');
         updateTask(taskObj, editItem.id);
         setTaskName('');
         setTaskDescription('');

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactjs-simple-todo-app/static/css/main.e092d8d7.chunk.css",
+    "main.js": "/reactjs-simple-todo-app/static/js/main.8cb22b85.chunk.js",
+    "main.js.map": "/reactjs-simple-todo-app/static/js/main.8cb22b85.chunk.js.map",
+    "runtime-main.js": "/reactjs-simple-todo-app/static/js/runtime-main.c0e1fb59.js",
+    "runtime-main.js.map": "/reactjs-simple-todo-app/static/js/runtime-main.c0e1fb59.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/reactjs-simple-todo-app/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.051cb6d0.chunk.js": "/reactjs-simple-todo-app/static/js/2.051cb6d0.chunk.js",
+    "static/js/2.051cb6d0.chunk.js.map": "/reactjs-simple-todo-app/static/js/2.051cb6d0.chunk.js.map",
+    "index.html": "/reactjs-simple-todo-app/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/reactjs-simple-todo-app/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.e092d8d7.chunk.css.map": "/reactjs-simple-todo-app/static/css/main.e092d8d7.chunk.css.map",
+    "static/js/2.051cb6d0.chunk.js.LICENSE.txt": "/reactjs-simple-todo-app/static/js/2.051cb6d0.chunk.js.LICENSE.txt",
+    "static/media/edit-icon.7e338520.png": "/reactjs-simple-todo-app/static/media/edit-icon.7e338520.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0e1fb59.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.051cb6d0.chunk.js",
+    "static/css/main.e092d8d7.chunk.css",
+    "static/js/main.8cb22b85.chunk.js"
+  ]
+}
