@@ -1,4 +1,3 @@
-import React from 'react';
 import editicon from '../assets/edit-icon.png';
 import trashicon from '../assets/trash-icon.png';
 

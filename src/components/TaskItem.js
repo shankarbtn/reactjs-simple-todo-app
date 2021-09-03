@@ -1,15 +1,12 @@
-import React from 'react';
 import TaskCard from './TaskCard';
 
 const TaskItem = (props) => {
-    //useEffect(() => {
-        const generateRandomColor = () => {
-            let r = Math.random() * 255;
-            let g = Math.random() * 255;
-            let b = Math.random() * 255;
-            return `rgba(${r},${g},${b}, 0.4)`;
-        };
-    //}, []);
+    const generateRandomColor = () => {
+        let r = Math.random() * 255;
+        let g = Math.random() * 255;
+        let b = Math.random() * 255;
+        return `rgba(${r},${g},${b}, 0.4)`;
+    };
     return (
         <>
             <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-3 px-5 pb-3">
